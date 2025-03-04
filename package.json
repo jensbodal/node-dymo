@@ -1,10 +1,10 @@
 {
-  "name": "dymojs",
-  "version": "1.2.0",
-  "description": "A pure javascript library for printing labels on a Dymo Labelwriter printer from the browser or from nodejs.",
+  "name": "node-dymo",
+  "version": "0.0.1",
+  "description": "A node library for printing labels on a Dymo Labelwriter printer from the browser or from nodejs.",
   "main": "lib/index.js",
   "scripts": {
-    "test": "mocha tests/"
+    "test": "vitest"
   },
   "keywords": [
     "node",
@@ -12,17 +12,14 @@
     "label",
     "print"
   ],
-  "author": "David Sandor",
-  "license": "ISC",
+  "author": "Jens Bodal",
+  "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "https://github.com/dsandor/dymojs.git"
+    "url": "https://github.com/jensbodal/node-dymo.git"
   },
   "devDependencies": {
-    "chai": "^3.5.0",
-    "mocha": "^3.2.0"
-  },
-  "dependencies": {
-    "node-fetch": "^2.6.1"
+    "@types/node": "20",
+    "typescript": "^5.8.2"
   }
 }
